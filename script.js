@@ -82,7 +82,7 @@ function marcarPendiente(tarea) {
 }
 
 function marcarCompletada(tarea) {
-    tarea.classList.remove("pendiente"); // Elimina la clase para resaltar el fondo en amarillo cuando este como completada
+    tarea.classList.remove("pendiente"); // Elimina la clase para sacar el resaltado de fondo amarillo cuando este como completada
     tarea.classList.add("completed");
 }
 
